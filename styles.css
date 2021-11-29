@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header_wrapper {
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 15px 190px;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+}
+
+.nav_list > li {
+    margin-right: 28px;
+    cursor:pointer;
+}
+
+.logo {
+    margin-left: 100px;
+    cursor:pointer;
+}
+
+.links {
+    margin-left: auto;
+    cursor:pointer;
+}
+
+.links img {
+    margin-right: 15px;
+}
+
+.main-page {
+    height: calc(100vh - 58px);
+    background-color: #F0EFEB;
+    display: flex;
+}
+
+.guides {
+    height: 100vh;
+}
+
+.title {
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.text {
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background: #000;
+    border-radius: 100px;
+    height: 36px;
+    width: 130px;
+    color: #fff;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    border:none;
+    cursor:pointer;
+}
+
+.main-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 190px;
+    margin-right: 50px;
+}
+
+.main-image{
+    width: 599px;
+    height: 521px;
+    align-self: center;
+}
