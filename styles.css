@@ -184,16 +184,18 @@
 
 .people {
     height: 100vh;
+    width: 100vw;
     background-color: rgba(204, 204, 204, 0.3);
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .presentation {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .people-image {
@@ -206,7 +208,6 @@
     font-family:'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
-    margin-top: 146px;
     margin-bottom: 31px;
 }
 
@@ -227,16 +228,18 @@
 
 .people-2 {
     height: 100vh;
+    width: 100vw;
     background-color: rgba(204, 204, 204, 0.6);
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .presentation-2 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content:center;
 }
 
 .people-image-2 {
@@ -249,7 +252,6 @@
     font-family:'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
-    margin-top: 168px;
     margin-bottom: 31px;
     text-align: right;
 }
@@ -272,16 +274,18 @@
 }
 .people-3 {
     height: 100vh;
+    width: 100vw;
     background-color: rgba(204, 204, 204, 0.3);
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .presentation-3 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .people-image-3 {
@@ -294,7 +298,6 @@
     font-family:'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
-    margin-top: 146px;
     margin-bottom: 31px;
 }
 
