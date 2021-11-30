@@ -179,10 +179,136 @@
     font-size: 17px;
     text-decoration-line: underline;
     cursor:pointer;
+    margin-bottom: 248px;
 }
-
-
 
 .people {
     height: 100vh;
+    background-color: rgba(204, 204, 204, 0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.people-image {
+    width: 385px;
+    height: 525px;
+    margin: 76px 50px 51px 30px; 
+}
+
+.presentation-title {
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 146px;
+    margin-bottom: 31px;
+}
+
+.presentation-text {
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.presentation-link {
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration-line: underline;
+    cursor:pointer;
+}
+
+.people-2 {
+    height: 100vh;
+    background-color: rgba(204, 204, 204, 0.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.presentation-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.people-image-2 {
+    width: 385px;
+    height: 525px;
+    margin: 76px 30px 51px 50px; 
+}
+
+.presentation-title-2 {
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 168px;
+    margin-bottom: 31px;
+    text-align: right;
+}
+
+.presentation-text-2 {
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 31px;
+    text-align: right;
+}
+
+.presentation-link-2 {
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration-line: underline;
+    cursor:pointer;
+    text-align: right;
+}
+.people-3 {
+    height: 100vh;
+    background-color: rgba(204, 204, 204, 0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.presentation-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.people-image-3 {
+    width: 385px;
+    height: 525px;
+    margin: 76px 50px 51px 30px; 
+}
+
+.presentation-title-3 {
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 146px;
+    margin-bottom: 31px;
+}
+
+.presentation-text-3 {
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.presentation-link-3 {
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration-line: underline;
+    cursor:pointer;
 }
